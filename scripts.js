@@ -26,9 +26,14 @@ function setLanguage(lang) {
     gallery.appendChild(img);
   });
 
-  // Update Social Media Links
+  // Update Social Media Links with Icons
+  document.getElementById('telegram').innerHTML = `<img src="icons/telegram.png" alt="Telegram"> Telegram`;
   document.getElementById('telegram').href = content[lang].social.telegram;
+  
+  document.getElementById('whatsapp').innerHTML = `<img src="icons/whatsapp.png" alt="WhatsApp"> WhatsApp`;
   document.getElementById('whatsapp').href = content[lang].social.whatsapp;
+  
+  document.getElementById('instagram').innerHTML = `<img src="icons/instagram.png" alt="Instagram"> Instagram`;
   document.getElementById('instagram').href = content[lang].social.instagram;
 
   // Update Gallery Headings
