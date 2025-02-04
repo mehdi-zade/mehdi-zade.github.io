@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#language-switcher button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#location, #products {
+  margin: 20px 0;
+}
+
+#product-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+#product-gallery img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
